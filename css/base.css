@@ -1,0 +1,76 @@
+h1,
+h2,
+h3 {
+  color: var(--cor-texto);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-family: var(--fonte-titulo);
+}
+
+p {
+  color: var(--cor-texto);
+  font-family: var(--fonte-corpo);
+}
+
+a,
+legend {
+  color: var(--cor-laranja);
+  font-family: var(--fonte-titulo);
+}
+
+a:hover {
+  color: var(--cor-laranja-hover);
+  font-weight: bold;
+  font-style: oblique;
+}
+
+body {
+  background: var(--cor-fundo);
+  min-height: 100vh;
+  font-weight: 400;
+  text-align: center;
+}
+
+form {
+  color: var(--cor-texto-form);
+  font-family: var(--fonte-corpo);
+  padding: 20px;
+  border-radius: var(--raio-borda);
+}
+
+fieldset {
+  border: 3px solid var(--cor-ouro-escuro);
+  border-radius: var(--raio-borda);
+  padding: 20px;
+}
+
+input,
+select,
+textarea {
+  font-family: var(--fonte-corpo);
+  border-radius: var(--raio-borda);
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px 24px;
+  background: var(--cor-ouro-escuro);
+  color: var(--cor-fundo);
+  border: none;
+  border-radius: var(--raio-borda);
+  font-family: var(--fonte-titulo);
+  font-size: 100%;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: var(--cor-ouro);
+}
+
+figcaption {
+  color: var(--cor-ouro-escuro);
+  font-family: var(--fonte-corpo);
+  font-size: 90%;
+  margin-top: 8px;
+  font-style: italic;
+}

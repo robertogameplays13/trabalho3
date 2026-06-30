@@ -1,0 +1,22 @@
+/* Variáveis CSS 
+As váriáveis armazenam valores que podem ser reutilizados 
+em todo o projeto. Ajudam a manter a consistência e 
+facilitam a manutenção do código.
+Esta estrutura pode ser reutilizada em outros projetos, 
+mas os valores são específicos para este projeto.
+*/
+:root {
+  --cor-fundo: #1a1208;
+  --cor-fundo-nav: #120d06;
+  --cor-fundo-footer: #231a0d;
+  --cor-borda: #5a3e1b;
+  --cor-ouro: gold;
+  --cor-ouro-escuro: goldenrod;
+  --cor-laranja: Orange;
+  --cor-laranja-hover: OrangeRed;
+  --cor-texto: white;
+  --cor-texto-form: rgb(141, 107, 22);
+  --fonte-titulo: 'Cinzel', Courier, monospace;
+  --fonte-corpo: 'Lora', Courier, monospace;
+  --raio-borda: 8px;
+}
